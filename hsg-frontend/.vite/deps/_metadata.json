@@ -1,0 +1,65 @@
+{
+  "hash": "31ea246f",
+  "browserHash": "e0a14cae",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4aeb3acd",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "aaa60c6f",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "37c836fd",
+      "needsInterop": false
+    },
+    "react-icons/hi": {
+      "src": "../../node_modules/react-icons/hi/index.esm.js",
+      "file": "react-icons_hi.js",
+      "fileHash": "f461447c",
+      "needsInterop": false
+    },
+    "dayjs": {
+      "src": "../../node_modules/dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "bdf77616",
+      "needsInterop": true
+    },
+    "dayjs/plugin/utc.js": {
+      "src": "../../node_modules/dayjs/plugin/utc.js",
+      "file": "dayjs_plugin_utc__js.js",
+      "fileHash": "b370ebc2",
+      "needsInterop": true
+    },
+    "dayjs/plugin/timezone.js": {
+      "src": "../../node_modules/dayjs/plugin/timezone.js",
+      "file": "dayjs_plugin_timezone__js.js",
+      "fileHash": "ec8dec52",
+      "needsInterop": true
+    },
+    "react-select": {
+      "src": "../../node_modules/react-select/dist/react-select.esm.js",
+      "file": "react-select.js",
+      "fileHash": "5be78759",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RVSLBP3T": {
+      "file": "chunk-RVSLBP3T.js"
+    },
+    "chunk-ST3U5LCA": {
+      "file": "chunk-ST3U5LCA.js"
+    },
+    "chunk-DFKQJ226": {
+      "file": "chunk-DFKQJ226.js"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE users-upload [
+    <!ELEMENT users-upload (users)>
+    <!ATTLIST users-upload operation (insert|update) "insert">
+    <!ELEMENT users (user+)>
+    <!ELEMENT user (Email, Password, Role, FirstName, LastName, AuthenticationKey)>
+    <!ELEMENT Email (#PCDATA)>
+    <!ELEMENT Password (#PCDATA)>
+    <!ELEMENT Role (#PCDATA)>
+    <!ELEMENT FirstName (#PCDATA)>
+    <!ELEMENT LastName (#PCDATA)>
+    <!ELEMENT AuthenticationKey (#PCDATA)>
+]>
+
+<users-upload operation="update">
+    <users>
+        <user>
+            <Email>xmlupload1@server.com</Email>
+            <Password>password</Password>
+            <Role>Member</Role>
+            <FirstName>xmlupload1a</FirstName>
+            <LastName>xmlupload1a</LastName>
+            <AuthenticationKey/>
+        </user>
+        <user>
+            <Email>xmlupload2@server.com</Email>
+            <Password>password</Password>
+            <Role>Member</Role>
+            <FirstName>xmlupload2a</FirstName>
+            <LastName>xmlupload2a</LastName>
+            <AuthenticationKey/>
+        </user>
+        <user>
+            <Email>xmlupload3@server.com</Email>
+            <Password>password</Password>
+            <Role>Member</Role>
+            <FirstName>xmlupload3a</FirstName>
+            <LastName>xmlupload3a</LastName>
+            <AuthenticationKey/>
+        </user>
+    </users>
+</users-upload>

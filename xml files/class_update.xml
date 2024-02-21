@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE classes-upload [
+    <!ELEMENT classes-upload (classes)>
+    <!ATTLIST classes-upload operation (insert|update) "insert">
+    <!ELEMENT classes (class+)>
+    <!ELEMENT class (Name, Description, Duration, Timeslot, Location)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Description (#PCDATA)>
+    <!ELEMENT Duration (#PCDATA)>
+    <!ELEMENT Timeslot (#PCDATA)>
+    <!ELEMENT Location (#PCDATA)>
+]>
+
+<classes-upload operation="update">
+    <classes>
+        <class>
+            <Name>Cycling</Name>
+            <Description>A cardio workout on stationary bikes that simulates outdoor cycling.</Description>
+            <Duration>4400</Duration>
+            <Timeslot>2:00 PM - 2:45 PM</Timeslot>
+            <Location>RideCycle - Cycling Studio</Location>
+        </class>
+        <class>
+            <Name>Judo</Name>
+            <Description>Judo teaches streght and self defence.</Description>
+            <Duration>90</Duration>
+            <Timeslot>3:00 PM - 4:30 PM</Timeslot>
+            <Location>Dojo</Location>
+        </class>
+    </classes>
+</classes-upload>
