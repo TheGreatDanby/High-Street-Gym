@@ -75,7 +75,3 @@ This project is designed for educational purposes. Suggestions for enhancements 
 ## License
 
 This project is created for demonstration and educational use and is not intended for commercial deployment.
-
-## Acknowledgements
-
-- (List any educational resources, technologies, or tools used in the project)
