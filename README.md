@@ -28,7 +28,7 @@ The database is structured to store information about users, classes, trainers, 
 
 ## Technologies
 
-### Backend (hsg-backend)
+### Backend
 
 - **Node.js**: The core environment for the backend.
 - **Express**: A fast, unopinionated, minimalist web framework for Node.js, used to build the server-side of the application.
@@ -48,7 +48,7 @@ The database is structured to store information about users, classes, trainers, 
 - **Nodemon** (Dev Dependency): Utility that monitors for any changes in your source and automatically restarts your server.
 - **Swagger-autogen** (Dev Dependency): Tool for auto-generating Swagger documentation.
 
-### Frontend (high-street-gym)
+### Frontend 
 
 - **React**: A JavaScript library for building user interfaces.
 - **Axios**: Promise-based HTTP client for the browser and Node.js.
