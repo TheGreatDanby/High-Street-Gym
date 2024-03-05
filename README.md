@@ -28,11 +28,45 @@ The database is structured to store information about users, classes, trainers, 
 
 ## Technologies
 
-The choice of client-side and server-side languages/platforms is left to the developer, focusing on the best-suited technologies for the project requirements.
+### Backend (hsg-backend)
 
-## Setup and Installation
+- **Node.js**: The core environment for the backend.
+- **Express**: A fast, unopinionated, minimalist web framework for Node.js, used to build the server-side of the application.
+- **MongoDB**: The NoSQL database used to store user and class information.
+- **Bcryptjs**: Used for hashing and securing user passwords.
+- **Body-parser**: Middleware to handle JSON, Raw, Text, and URL encoded form data.
+- **Cors**: Package to enable CORS (Cross-Origin Resource Sharing).
+- **Dayjs**: Lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
+- **Dotenv**: Module to load environment variables from a `.env` file.
+- **Express-fileupload**: Middleware for handling file uploads.
+- **Express-json-validator-middleware**: Middleware for JSON validation.
+- **Jsonwebtoken**: Implementation of JSON Web Tokens for authentication.
+- **React-select**: Used for building select input components.
+- **Swagger-ui-express**: Middleware for serving the Swagger UI for API documentation.
+- **Uuid**: For the generation of RFC4122 UUIDs.
+- **Xml2js**: Library for parsing XML to JavaScript objects.
+- **Nodemon** (Dev Dependency): Utility that monitors for any changes in your source and automatically restarts your server.
+- **Swagger-autogen** (Dev Dependency): Tool for auto-generating Swagger documentation.
 
-(Include any necessary steps for setting up the project for demonstration, such as cloning the repository, setting up a local server, or configuring a database.)
+### Frontend (high-street-gym)
+
+- **React**: A JavaScript library for building user interfaces.
+- **Axios**: Promise-based HTTP client for the browser and Node.js.
+- **Dayjs**: Lightweight library for parsing, validating, manipulating, and formatting dates.
+- **React-icons**: Library to include popular icons in your React projects.
+- **React-router-dom**: DOM bindings for React Router, used for routing in this application.
+- **React-select**: Component for creating select dropdowns.
+- **Sweetalert2**: A beautiful, responsive, customizable, and accessible replacement for JavaScript's popup boxes.
+- **Vite**: Frontend build tool that significantly improves the frontend development experience.
+- **DaisyUI**: Tailwind CSS component library.
+- **TailwindCSS**: A utility-first CSS framework for rapidly building custom designs.
+- **PostCSS**: A tool for transforming CSS with JavaScript.
+- **Autoprefixer**: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules.
+- **@types/react** and **@types/react-dom** (Dev Dependencies): TypeScript definitions for React and React DOM.
+- **@vitejs/plugin-react**: Enables Vite to work with React.
+
+This setup provides a robust development environment for building and maintaining the dynamic website for High Street Gym, demonstrating a range of modern web development tools and practices.
+
 
 ## Contributing
 
